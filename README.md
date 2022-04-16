@@ -3,7 +3,7 @@
 ## Objetivo 
 * Fazer implementação das atividades de 2 a 4 considerando as regras negociais abaixo.
 
-# Percentual de votos em relação ao total de eleitores
+## Percentual de votos em relação ao total de eleitores
 *Calculo do percentual Considerando os valores de entrada.
 * totalEleitores=1000
 * validos=800
