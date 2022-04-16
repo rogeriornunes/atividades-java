@@ -14,5 +14,5 @@ Foi utilizado Padrão de Projeto: Factory Method Simple Flactory.
 
 ## Tecnologias 
 
-*Java 8
+* Java 8
 
