@@ -18,6 +18,10 @@ fazendo swap de posição utilizando for para controlar quantidade de vezes e el
 até checgar na ordenação idel, percorrendo o vetor por completo apenas uma unica vez.
 *   valor de entrada considerado: int vetor[] ={5,3,2,4,7,1,0,6};  
 
+## Fatoria de um número
+Foi implementado algoritimo que calcula o fatorial de um número.
+* Valor de entrada numero = 5;
+
 ## Tecnologias 
 
 * Java 8
