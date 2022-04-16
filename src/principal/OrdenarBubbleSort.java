@@ -6,15 +6,9 @@ public class OrdenarBubbleSort {
 	    int vetor[] ={5,3,2,4,7,1,0,6};  
           
         ordernar(vetor);     
-        imprimirOrdenacao(vetor);  
+        exibirOrdenacao(vetor);  
 	}
 
-	public static void imprimirOrdenacao(int[] vetor) {
-		for(int i=0; i < vetor.length; i++){  
-                System.out.print(vetor[i] + " ");  
-        }
-	}
-	
 	public static void ordernar(int[] vetor) {
 		int tamanho = vetor.length;
 		int auxiliar = 0;
@@ -33,4 +27,11 @@ public class OrdenarBubbleSort {
 			}
 		}
 	}
+	
+	public static void exibirOrdenacao(int[] vetor) {
+		for(int i=0; i < vetor.length; i++){  
+                System.out.print(vetor[i] + " ");  
+        }
+	}
+	
 }

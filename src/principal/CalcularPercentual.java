@@ -40,22 +40,22 @@ public class CalcularPercentual {
 	private static void valido(Eleitor eleitor, Voto voto) {
 		BigDecimal percentual = BigDecimal.ZERO;
 		percentual = PercentualFactory.calcularPercentual(eleitor, voto, TipoVoto.VALIDO);
-		mostrarMensagem(percentual, TipoVoto.VALIDO);
+		exibirPercentual(percentual, TipoVoto.VALIDO);
 	}
 	
 	private static void branco(Eleitor eleitor, Voto voto) {
 		BigDecimal percentual = BigDecimal.ZERO;
 		percentual = PercentualFactory.calcularPercentual(eleitor, voto, TipoVoto.BRANCO);
-		mostrarMensagem(percentual, TipoVoto.BRANCO);
+		exibirPercentual(percentual, TipoVoto.BRANCO);
 	}
 	
 	private static void nulo(Eleitor eleitor, Voto voto) {
 		BigDecimal percentual = BigDecimal.ZERO;
 		percentual = PercentualFactory.calcularPercentual(eleitor, voto, TipoVoto.NULO);
-		mostrarMensagem(percentual, TipoVoto.NULO);
+		exibirPercentual(percentual, TipoVoto.NULO);
 	}
 	
-	public static void mostrarMensagem(BigDecimal percentual, TipoVoto tipoVoto) {
+	public static void exibirPercentual(BigDecimal percentual, TipoVoto tipoVoto) {
 		StringBuilder stringBuilder = new StringBuilder();
 		stringBuilder.append("Percentual: ");
 		stringBuilder.append(percentual);
