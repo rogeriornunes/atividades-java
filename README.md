@@ -21,7 +21,7 @@ até checgar na ordenação idel, percorrendo o vetor por completo apenas uma un
 ## Fatoria de um número
 Foi implementado algoritimo que calcula o fatorial de um número.
 * Valor de entrada numero = 5;
-* 
+
 ## Tecnologias 
 
 * Java 8
